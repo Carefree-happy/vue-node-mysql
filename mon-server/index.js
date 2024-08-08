@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
 
 mongoose
   .connect(
-    'mongodb+srv://admin:0Al2C37FwcWbeagS@atlascluster.xdkvu.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster'
+    'mongodb+srv://admin:<password>@atlascluster.xdkvu.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster'
   )
   .then(() => {
     console.log("Connected to database!");
